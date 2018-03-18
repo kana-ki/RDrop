@@ -1,0 +1,11 @@
+.app-container {
+    margin: 0 auto;
+    max-width: 1000px;
+
+    .app-controls-container {
+        padding: 1rem;
+        border-bottom: solid rgb(25%, 25%, 25%) 1px;
+        text-align: right;
+    }
+    
+}

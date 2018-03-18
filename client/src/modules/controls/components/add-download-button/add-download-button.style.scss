@@ -1,0 +1,6 @@
+@import "../../controls.style";
+
+.add-download-button {
+    @extend .button;
+    @extend .primary;
+}

@@ -6,6 +6,7 @@
     "module": "es2015",
     "types": []
   },
+  "sourceMap": true,
   "exclude": [
     "test.ts",
     "**/*.spec.ts"

@@ -1,0 +1,33 @@
+@import "../../controls.style";
+
+button {
+   
+    padding: .6rem;
+    border-radius: .3rem;
+    border: none;
+    font-size: 2rem;
+    line-height: 1rem;
+    cursor: pointer;
+    color: rgb(85%, 85%, 85%);
+    background-color: rgb(30%, 30%, 30%);
+    box-shadow: 0px 1px 3px black;
+
+    &.primary {
+
+        background-color: rgb(0, 45%, 100%);
+
+    }
+
+    &:hover {
+
+        background-color: rgb(0, 55%, 100%);
+
+    }
+
+    &:active {
+
+        background-color: rgb(0, 40%, 100%);
+
+    }
+    
+}

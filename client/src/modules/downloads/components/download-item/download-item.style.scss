@@ -1,0 +1,45 @@
+@import "../../downloads.style";
+
+$item-padding: 1rem;
+.download-item {
+
+    position: relative;
+    padding: $item-padding * 0.6 $item-padding $item-padding $item-padding;
+    background-color: rgb(17.5%, 17.5%, 17.5%);
+    color: rgb(85%, 85%, 85%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    box-shadow: 0px 1px 3px rgb(10%, 10%, 10%);
+    
+
+    &:hover {
+        background-color: rgb(20%, 20%, 20%);
+    }
+
+    &.downloading {
+        box-shadow: 0px 2px 5px rgb(10%, 10%, 10%);
+        border-bottom: solid 2px rgb(0, 128, 0);
+    }
+
+    .status {
+        position: absolute;
+        bottom: $item-padding;
+        right: $item-padding;
+        &.downloading {
+            color: rgb(0, 128, 0);
+        }
+    }
+
+    .size {
+        position: absolute;
+        top: $item-padding * 0.6;
+        right: $item-padding;
+    }
+
+    .parentUrl {
+
+        color: rgb(35%, 35%, 35%);
+
+    }
+
+}   

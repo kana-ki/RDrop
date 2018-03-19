@@ -1,10 +1,9 @@
 import { NgModule } from "@angular/core";
-import { ApiServicesModule } from '../api-services/api-services.module';
-import { AddDownloadButtonComponent } from './components/add-download-button/add-download-button.component';
+import { ButtonComponent } from './components/button/button.component';
 
 @NgModule({
-    declarations: [ AddDownloadButtonComponent ],
-    imports: [ ApiServicesModule ],
-    exports: [ AddDownloadButtonComponent ]
+    declarations: [ ButtonComponent ],
+    imports: [ ],
+    exports: [ ButtonComponent ]
   })
 export class ControlsModule { }

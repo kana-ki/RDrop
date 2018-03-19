@@ -1,5 +1,5 @@
 import { Component } from "@angular/core";
-import { AddDownloadService } from "../../../api-services/services/add-download/add-download.service";
+import { AddDownloadService } from "../../../api/services/add-download/add-download.service";
 
 @Component({
     selector: 'add-download-button',

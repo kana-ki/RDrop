@@ -1,0 +1,4 @@
+{
+    "addDownloadUrl": "https://localhost:8080/downloads/",
+    "getDownloadsUrl": "https://localhost:8080/downloads/"
+}

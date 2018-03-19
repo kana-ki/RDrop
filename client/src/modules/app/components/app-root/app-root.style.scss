@@ -1,18 +1,35 @@
+$app-width: 1000px;
+
 .app-container {
 
-    margin: 0 auto;
-    max-width: 1000px;
-
-    .app-controls-container {
+    header {
 
         padding: 1rem;
-        border-bottom: solid rgb(25%, 25%, 25%) 1px;
-        text-align: right;
+        box-shadow: 0 3px 6px rgb(10%, 10%, 10%);
+        // border-bottom: solid rgb(25%, 25%, 25%) 1px;
+
+        .app-header-container {
+            margin: 0 auto;
+            max-width: $app-width;
+
+            img {
+                height: 36px;
+                color: rgb(85%, 85%, 85%);
+            }
+
+            .app-controls-container {
+                float: right;
+                text-align: right;
+            }
+
+        }
         
     }
 
     .app-downloads-container {
-
+        
+        margin: 0 auto;
+        max-width: $app-width;
         // padding: 1rem;
 
         download-item {

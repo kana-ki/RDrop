@@ -13,12 +13,12 @@
       "assets": [
         "assets"
       ],
-      "index": "./app/index.html",
-      "main": "./app/main.ts",
+      "index": "./index.html",
+      "main": "./main.ts",
       "polyfills": "./polyfills.ts",
       "tsconfig": "./tsconfig.json",
       "prefix": "app",
-      "styles": [ "./app/main.scss" ],
+      "styles": [ "./main.scss" ],
       "scripts": [],
       "environmentSource": "environment/environment.ts",
       "environments": {

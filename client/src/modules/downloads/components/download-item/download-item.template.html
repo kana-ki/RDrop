@@ -1,7 +1,7 @@
-<div class="download-item" [class.downloading]="IsDownloading">
-    <div class="status" [class.downloading]="IsDownloading">{{Status}}</div>
-    <div class="fileName">{{FileName}}</div>
-    <div class="parentUrl">{{ParentUrl}}</div>
+<div class="download-item" [class.downloading]="_download.IsDownloading">
+    <div class="status" [class.downloading]="_download.IsDownloading">{{_download.Status}}</div>
+    <div class="fileName">{{_download.FileName}}</div>
+    <div class="parentUrl">{{_download.ParentUrl}}</div>
     <br/>
-    <span class="size">{{Size}}</span>
+    <span class="size">{{_download.Size}}</span>
 </div>

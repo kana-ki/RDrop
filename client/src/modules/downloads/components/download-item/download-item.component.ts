@@ -1,5 +1,6 @@
 import { Component, Input } from "@angular/core";
-import { DownloadStatus } from "./download-item-status.enum";
+import { DownloadStatus } from "modules/api/models/download-status.enum";
+import { Download } from "modules/api/models/download.model";
 
 @Component({
     selector: 'download-item',
@@ -8,24 +9,6 @@ import { DownloadStatus } from "./download-item-status.enum";
 })
 export class DownloadItemComponent {
     
-    @Input('url') public Url : String;
-    public get ParentUrl() : String {
-        return this.Url.substring(0, this.Url.lastIndexOf('/') + 1);
-    }
-    public get FileName() : String {
-        return this.Url.substring(this.Url.lastIndexOf('/') + 1);
-    }
-
-    @Input('size') public Size : Number;
-    @Input('status') public Status : DownloadStatus
-    public get IsDownloading() : Boolean {
-        return this.Status == DownloadStatus.Downloading;
-    }
-
-    constructor() {
-        this.Url = "https://my.maxium.server.io/long/really/long/super/path/vscode_installer.exe"
-        this.Size = 34816;
-        // this.Status = DownloadStatus.Downloading;
-    }
+    @Input('download') private _download : Download;
 
 }

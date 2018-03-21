@@ -11,7 +11,8 @@ export class AddDownloadButtonComponent {
     constructor (private addDownloadService : AddDownloadService) { }
 
     public AddDownload() {
-        this.addDownloadService.AddDownloadByUrl();
+        var url = prompt("Url to download");
+        this.addDownloadService.AddDownloadByUrl(new URL(url));
     }
 
  }

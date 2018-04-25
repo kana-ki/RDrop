@@ -1,0 +1,11 @@
+/mnt/d/Apps/RDrop/api/Api.ClientMessaging.Infrastructure/obj/Debug/netstandard2.0/Api.ClientMessaging.Infrastructure.csproj.CoreCompileInputs.cache
+/mnt/d/Apps/RDrop/api/Api.ClientMessaging.Infrastructure/obj/Debug/netstandard2.0/Api.ClientMessaging.Infrastructure.AssemblyInfoInputs.cache
+/mnt/d/Apps/RDrop/api/Api.ClientMessaging.Infrastructure/obj/Debug/netstandard2.0/Api.ClientMessaging.Infrastructure.AssemblyInfo.cs
+D:\Apps\RDrop\api\Api.ClientMessaging.Infrastructure\obj\Debug\netstandard2.0\Api.ClientMessaging.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Apps\RDrop\api\Api.ClientMessaging.Infrastructure\obj\Debug\netstandard2.0\Api.ClientMessaging.Infrastructure.AssemblyInfoInputs.cache
+D:\Apps\RDrop\api\Api.ClientMessaging.Infrastructure\obj\Debug\netstandard2.0\Api.ClientMessaging.Infrastructure.AssemblyInfo.cs
+D:\Apps\RDrop\api\Api.ClientMessaging.Infrastructure\bin\Debug\netstandard2.0\Api.ClientMessaging.Infrastructure.deps.json
+D:\Apps\RDrop\api\Api.ClientMessaging.Infrastructure\bin\Debug\netstandard2.0\Api.ClientMessaging.Infrastructure.dll
+D:\Apps\RDrop\api\Api.ClientMessaging.Infrastructure\bin\Debug\netstandard2.0\Api.ClientMessaging.Infrastructure.pdb
+D:\Apps\RDrop\api\Api.ClientMessaging.Infrastructure\obj\Debug\netstandard2.0\Api.ClientMessaging.Infrastructure.dll
+D:\Apps\RDrop\api\Api.ClientMessaging.Infrastructure\obj\Debug\netstandard2.0\Api.ClientMessaging.Infrastructure.pdb

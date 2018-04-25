@@ -1,0 +1,11 @@
+D:\Apps\RDrop\api\Api.ClientMessaging.Models\obj\Debug\netstandard2.0\Api.ClientMessaging.Models.csproj.CoreCompileInputs.cache
+D:\Apps\RDrop\api\Api.ClientMessaging.Models\obj\Debug\netstandard2.0\Api.ClientMessaging.Models.AssemblyInfoInputs.cache
+D:\Apps\RDrop\api\Api.ClientMessaging.Models\obj\Debug\netstandard2.0\Api.ClientMessaging.Models.AssemblyInfo.cs
+D:\Apps\RDrop\api\Api.ClientMessaging.Models\bin\Debug\netstandard2.0\Api.ClientMessaging.Models.deps.json
+D:\Apps\RDrop\api\Api.ClientMessaging.Models\bin\Debug\netstandard2.0\Api.ClientMessaging.Models.dll
+D:\Apps\RDrop\api\Api.ClientMessaging.Models\bin\Debug\netstandard2.0\Api.ClientMessaging.Models.pdb
+D:\Apps\RDrop\api\Api.ClientMessaging.Models\bin\Debug\netstandard2.0\Api.ClientMessaging.Infrastructure.dll
+D:\Apps\RDrop\api\Api.ClientMessaging.Models\bin\Debug\netstandard2.0\Api.ClientMessaging.Infrastructure.pdb
+D:\Apps\RDrop\api\Api.ClientMessaging.Models\obj\Debug\netstandard2.0\Api.ClientMessaging.Models.csproj.CopyComplete
+D:\Apps\RDrop\api\Api.ClientMessaging.Models\obj\Debug\netstandard2.0\Api.ClientMessaging.Models.dll
+D:\Apps\RDrop\api\Api.ClientMessaging.Models\obj\Debug\netstandard2.0\Api.ClientMessaging.Models.pdb

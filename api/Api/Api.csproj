@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <NoWarn>4014,1998</NoWarn>
+    <PublishWithAspNetCoreTargetManifest>false</PublishWithAspNetCoreTargetManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.WebSockets" Version="2.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Api.ClientMessaging.Handlers\Api.ClientMessaging.Handlers.csproj" />
+    <ProjectReference Include="..\Api.ClientMessaging.Infrastructure\Api.ClientMessaging.Infrastructure.csproj" />
+    <ProjectReference Include="..\Api.ClientMessaging.Models\Api.ClientMessaging.Models.csproj" />
+  </ItemGroup>
+</Project>

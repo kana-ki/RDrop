@@ -1,0 +1,3 @@
+D:\Apps\RDrop\api\Api.ClientMessaging.infrastructure\obj\Debug\netstandard2.0\Api.ClientMessaging.infrastructure.csproj.CoreCompileInputs.cache
+D:\Apps\RDrop\api\Api.ClientMessaging.infrastructure\obj\Debug\netstandard2.0\Api.ClientMessaging.infrastructure.AssemblyInfoInputs.cache
+D:\Apps\RDrop\api\Api.ClientMessaging.infrastructure\obj\Debug\netstandard2.0\Api.ClientMessaging.infrastructure.AssemblyInfo.cs

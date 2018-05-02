@@ -5,6 +5,8 @@
 **/dist
 **/dist-server
 **/out-tsc
+**/obj
+**/bin
 
 # dependencies
 **/node_modules

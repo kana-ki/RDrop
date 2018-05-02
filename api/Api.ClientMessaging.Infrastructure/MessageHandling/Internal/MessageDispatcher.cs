@@ -24,7 +24,7 @@ namespace RDrop.Api.ClientMessaging.Infrastructure.MessageHandling.Internal
             this._messageContext = messageContext;
         }
 
-        public async Task HandleAsync()
+        public async Task DispatchAsync()
         {
             String messageKey;
             try

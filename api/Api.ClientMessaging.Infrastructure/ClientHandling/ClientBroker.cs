@@ -34,7 +34,7 @@ namespace RDrop.Api.ClientMessaging.Infrastructure.ClientHandling
                 if (result.EndOfMessage)
                 {
                     String message = Encoding.UTF8.GetString(buffer.Array, 0, result.Count);
-                    new MessageDispatcher(new MessageContext(this, message)).HandleAsync();
+                    new MessageDispatcher(new MessageContext(this, message)).DispatchAsync();
                 }
             }
         }

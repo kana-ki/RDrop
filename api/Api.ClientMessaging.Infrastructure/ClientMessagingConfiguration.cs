@@ -39,6 +39,6 @@ namespace RDrop.Api.ClientMessaging.Infrastructure
             });
         }
 
-
     }
+    
 }

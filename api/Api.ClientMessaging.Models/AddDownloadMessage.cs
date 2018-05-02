@@ -11,4 +11,5 @@ namespace RDrop.Api.ClientMessaging.Models
         public String Url;
 
     }
+    
 }

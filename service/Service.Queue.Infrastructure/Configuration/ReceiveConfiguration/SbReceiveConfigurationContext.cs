@@ -1,4 +1,4 @@
-﻿namespace RDrop.Service.Bus.Infrastructure.Configuration.ReceiveCnnfiguration
+﻿namespace RDrop.Service.Bus.Infrastructure.Configuration.ReceiveConfiguration
 {
 
     using System;
@@ -16,7 +16,7 @@
 
         public abstract SbReceiveEndpointConfiguration FromAmqpEndpoint(String amqpUri);
 
-        public abstract SbReceiveConfiguration WithHandlersIn(Assembly assembly);
+        public abstract SbReceiveHandlersConfiguration HandledBy(Assembly assembly);
 
     }
 

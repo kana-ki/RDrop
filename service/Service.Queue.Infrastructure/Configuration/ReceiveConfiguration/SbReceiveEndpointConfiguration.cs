@@ -1,4 +1,4 @@
-﻿namespace RDrop.Service.Bus.Infrastructure.Configuration.ReceiveCnnfiguration
+﻿namespace RDrop.Service.Bus.Infrastructure.Configuration.ReceiveConfiguration
 {
 
     using System;

@@ -10,7 +10,6 @@
         static void Main(string[] args) 
         {
 
-
             ServiceBus
                 .CreateAndConfigure()
                     .Receive()
@@ -21,7 +20,10 @@
                             .FromExchange("DownloadExchange2")
                                 .WithChannelName("downloadWorker1")
                                 .WithPollInterval(30)
-                        .WithHandlersIn(typeof(StartDownloadHandler).Assembly)
+                        .HandledBy()
+                            .HandlersInAssembly(typeof(StartDownloadHandler).Assembly)
+                            .Handler<StartDownloadHandler>()
+                            .Handler<StartDownloadHandler>()
                     .Send()
                         .MessagesInNamespace("Service.Bus.Messages.Broadcasts")
                             .ToAmqpEndpoint("ampq://localhost:15672")

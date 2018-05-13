@@ -1,4 +1,4 @@
-﻿namespace RDrop.Service.Bus.Infrastructure.Configuration.ReceiveCnnfiguration
+﻿namespace RDrop.Service.Bus.Infrastructure.Configuration.ReceiveConfiguration
 {
 
     using System;
@@ -16,8 +16,8 @@
         public override SbReceiveEndpointConfiguration FromAmqpEndpoint(string amqpUri) =>
             this._sbReceiveConfiguration.FromAmqpEndpoint(amqpUri);
 
-        public override SbReceiveConfiguration WithHandlersIn(Assembly assembly) =>
-            this._sbReceiveConfiguration.WithHandlersIn(assembly);
+        public override SbReceiveHandlersConfiguration HandledBy(Assembly assembly) =>
+            this._sbReceiveConfiguration.HandledBy(assembly);
 
         public abstract SbReceiveExchangeConfiguration FromExchange(String exchange);
 

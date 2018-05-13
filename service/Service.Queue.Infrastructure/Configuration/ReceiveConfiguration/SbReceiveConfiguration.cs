@@ -1,4 +1,4 @@
-﻿namespace RDrop.Service.Bus.Infrastructure.Configuration.ReceiveCnnfiguration
+﻿namespace RDrop.Service.Bus.Infrastructure.Configuration.ReceiveConfiguration
 {
 
     using System;
@@ -23,7 +23,7 @@
             return endpointConfig;
         }
 
-        public override SbReceiveConfiguration WithHandlersIn(Assembly assembly)
+        public override SbReceiveHandlersConfiguration HandledBy(Assembly assembly)
         {
             this.HandlersAssembly = assembly;
             return this;

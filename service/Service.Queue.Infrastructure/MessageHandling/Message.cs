@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace RDrop.Service.Bus.Infrastructure.Model {
+namespace RDrop.Service.Bus.Infrastructure.MessageHandling {
 
     public class Message<T> {
 

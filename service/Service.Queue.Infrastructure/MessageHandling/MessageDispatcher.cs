@@ -1,12 +1,10 @@
-﻿namespace RDrop.Service.Bus.Infrastructure
+﻿namespace RDrop.Service.Bus.Infrastructure.MessageHandling
 {
 
     using System;
-    using System.Reflection;
     using System.Threading;
     using Newtonsoft.Json;
     using Newtonsoft.Json.Linq;
-    using RDrop.Service.Bus.Infrastructure.Enumerations;
 
     public class MessageDispatcher
     {
@@ -42,7 +40,7 @@
 
         public HandleStatus Dispatch()
         {
-            IEnumerable<Assembly> assemblies = Assembly.GetEntryAssembly().GetReferencedAssemblies().
+            return HandleStatus.Failure;
             //var handlers = this._kernel.GetAll(typeof(IHandle<>).MakeGenericType(this._message.GetType() as Type));
             //foreach (dynamic handler in handlers) {
             //    HandleStatus result = handler.Handle(this._message);

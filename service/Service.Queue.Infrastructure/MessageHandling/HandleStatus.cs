@@ -1,7 +1,10 @@
-﻿namespace RDrop.Service.Bus.Infrastructure.Enumerations {
-    public enum HandleStatus {
+﻿namespace RDrop.Service.Bus.Infrastructure.MessageHandling {
+
+    public enum HandleStatus
+    {
         Failure,
         Invalid,
         Successful
     }
+
 }

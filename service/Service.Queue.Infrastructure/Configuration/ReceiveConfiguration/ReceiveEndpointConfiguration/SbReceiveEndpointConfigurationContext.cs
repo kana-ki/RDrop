@@ -16,8 +16,8 @@
         public override SbReceiveEndpointConfiguration FromAmqpEndpoint(string amqpUri) =>
             this._sbReceiveConfiguration.FromAmqpEndpoint(amqpUri);
 
-        public override SbReceiveHandlersConfiguration HandledBy(Assembly assembly) =>
-            this._sbReceiveConfiguration.HandledBy(assembly);
+        public override SbReceiveHandlersConfiguration HandledBy() =>
+            this._sbReceiveConfiguration.HandledBy();
 
         public abstract SbReceiveExchangeConfiguration FromExchange(String exchange);
 

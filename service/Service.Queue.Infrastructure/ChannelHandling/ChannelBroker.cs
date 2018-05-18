@@ -5,7 +5,7 @@
     using System.Text;
     using System.Threading;
     using RabbitMQ.Client;
-    using RDrop.Service.Bus.Infrastructure.Enumerations;
+    using RDrop.Service.Bus.Infrastructure.MessageHandling;
 
     internal class ChannelBroker
     {

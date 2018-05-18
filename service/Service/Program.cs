@@ -23,7 +23,10 @@
                         .HandledBy()
                             .HandlersInAssembly(typeof(StartDownloadHandler).Assembly)
                             .Handler<StartDownloadHandler>()
-                            .Handler<StartDownloadHandler>()
+                            .Handler<StartDownload>(c => {
+                                System.Console.WriteLine("Hello World");
+                                return Bus.Infrastructure.MessageHandling.HandleStatus.Successful;
+                            })
                     .Send()
                         .MessagesInNamespace("Service.Bus.Messages.Broadcasts")
                             .ToAmqpEndpoint("ampq://localhost:15672")

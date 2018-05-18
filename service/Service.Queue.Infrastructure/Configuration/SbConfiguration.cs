@@ -1,7 +1,7 @@
 ﻿namespace RDrop.Service.Bus.Infrastructure.Configuration
 {
 
-    using RDrop.Service.Bus.Infrastructure.Configuration.ReceiveCnnfiguration;
+    using RDrop.Service.Bus.Infrastructure.Configuration.ReceiveConfiguration;
 
     public class SbConfiguration : SbConfigurationContext
     {

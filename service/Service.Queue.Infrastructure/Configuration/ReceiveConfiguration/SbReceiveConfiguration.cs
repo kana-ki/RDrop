@@ -23,11 +23,11 @@
             return endpointConfig;
         }
 
-        public override SbReceiveHandlersConfiguration HandledBy(Assembly assembly)
+        public override SbReceiveHandlersConfiguration HandledBy()
         {
-            this.HandlersAssembly = assembly;
-            return this;
+            return new SbReceiveHandlersConfiguration(this, this._serviceBusConfiguration, this._serviceBus);
         }
 
     }
+
 }

@@ -2,7 +2,6 @@
 {
 
     using System;
-    using System.Reflection;
 
     public abstract class SbReceiveConfigurationContext : SbConfigurationContext
     {
@@ -16,7 +15,7 @@
 
         public abstract SbReceiveEndpointConfiguration FromAmqpEndpoint(String amqpUri);
 
-        public abstract SbReceiveHandlersConfiguration HandledBy(Assembly assembly);
+        public abstract SbReceiveHandlersConfiguration HandledBy();
 
     }
 
